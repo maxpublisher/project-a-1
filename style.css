@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.name {
+    color: goldenrod;
+}
+
+.welcome_section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex
+}
+
+.welcome_sec_div {
+    width: 50%;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+.welcome_sec_div img {
+    width: 80%;
+}
+
+.hire_me {
+    text-decoration: none;
+    background-image: linear-gradient(#fa6e3f, #e4311d);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
